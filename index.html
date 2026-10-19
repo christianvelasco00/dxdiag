@@ -1,0 +1,469 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Christian Mark Velasco - BS Computer Engineering Student Portfolio">
+    <title>Christian Mark Velasco | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<button
+  id="back-to-top"
+  class="back-to-top"
+  type="button"
+  aria-label="Back to top"
+  title="Back to top"
+>
+  ↑
+</button>
+    <div class="scroll-progress-track" aria-hidden="true">
+  <div id="scroll-progress"></div>
+</div>
+    
+<!-- Welcome / Loading Screen -->
+<div id="welcome-screen" class="welcome-screen" aria-label="Welcome to my portfolio">
+  <div class="welcome-grid"></div>
+
+  <svg class="welcome-circuit" viewBox="0 0 1000 700"
+       preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <path d="M0 130 H170 V220 H290 M1000 180 H830 V270 H710"/>
+    <path d="M0 520 H180 V430 H320 M1000 480 H820 V390 H680"/>
+    <path d="M250 0 V120 H360 V180 M750 700 V570 H640 V520"/>
+    <rect x="420" y="250" width="160" height="160" rx="10"/>
+    <rect x="450" y="280" width="100" height="100" rx="5"/>
+    <path d="M390 280 H420 M390 310 H420 M390 340 H420
+             M580 280 H610 M580 310 H610 M580 340 H610
+             M450 220 V250 M480 220 V250 M510 220 V250
+             M450 410 V440 M480 410 V440 M510 410 V440"/>
+  </svg>
+
+  <div class="welcome-content">
+    <p class="welcome-kicker">PORTFOLIO · 2026</p>
+    <h1>Welcome to My Portfolio</h1>
+    <p class="welcome-subtitle">
+      Computer Engineering Student | Future Engineer
+    </p>
+    <div class="welcome-loader"><span></span></div>
+  </div>
+</div>
+
+
+    <header class="header">
+        <a href="#home" class="logo">CMV<span>.</span></a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="nav-link active">Start</a>
+            <a href="#about" class="nav-link">Profile</a>
+            <a href="#skills" class="nav-link">Skill Tree</a>
+            <a href="#projects" class="nav-link">Project Log</a>
+            <a href="#autocad" class="nav-link">Design Archive</a>
+            <a href="#interests" class="nav-link">Beyond Code</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span>Christian Mark Velasco</span></h1>
+
+                <h2>
+  <span id="typing-text">Computer Engineering Student</span>
+  <span class="typing-cursor" aria-hidden="true">|</span>
+</h2>
+
+                <p class="hero-description">
+                    A fourth-year BS Computer Engineering student interested
+                    in programming, engineering design, and technology-based
+                    solutions. I am continuously learning and developing
+                    projects through my academic journey.
+                </p>
+
+                <div class="hero-tags">
+                    <span>BSCoE</span>
+                    <span>4th Year</span>
+                    <span>Future Engineer</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+
+                <p class="availability">
+                    <span class="status-dot"></span>
+                    Learning, building, and improving.
+                </p>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <div class="image-glow"></div>
+
+
+                <img
+                    src="Picture hydro and me/christian-profile.jfif.jfif"
+                    alt="Christian Mark Velasco"
+                    class="profile-image"
+                >
+
+                <div class="image-caption">
+                    <span class="caption-icon">⌘</span>
+                    <div>
+                        <strong>Christian Mark Velasco</strong>
+                        <p>Computer Engineering • BSCoE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section section-alt" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p>A student with an interest in technology and engineering.</p>
+            </div>
+
+            <div class="about-card">
+                <div class="about-symbol">{"</>"}</div>
+
+                <div>
+                    <h3>My Journey in Computer Engineering</h3>
+
+                    <p>
+                        I am Christian Mark Velasco, a fourth-year Bachelor
+                        of Science in Computer Engineering student. My
+                        academic journey allows me to explore programming,
+                        computer systems, technical design, and engineering
+                        problem-solving.
+                    </p>
+
+                    <p>
+                        I am currently developing academic projects such as
+                        HydroReap and a Parking Slot Reservation and
+                        Management System. These projects are opportunities
+                        for me to learn, apply engineering concepts, and
+                        improve my technical skills.
+                    </p>
+
+                    <p>
+                        My goal is to keep learning, gain practical experience,
+                        and build useful technology-based solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I AM LEARNING</p>
+                <h2>Technical <span>Skills</span></h2>
+                <p>Technologies and tools I explore through my coursework.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">&lt;/&gt;</div>
+                    <h3>HTML5</h3>
+                    <p>Building the structure of web pages.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">C++</div>
+                    <h3>C++</h3>
+                    <p>Programming fundamentals and problem-solving.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">JVM</div>
+                    <h3>Java</h3>
+                    <p>Learning object-oriented programming and applications.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">⌘</div>
+                    <h3>GitHub</h3>
+                    <p>Learning repository management and project sharing.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">3D</div>
+                    <h3>AutoCAD</h3>
+                    <p>Technical drafting and 3D modeling coursework.</p>
+                </article>
+            </div>
+            <div class="skill-meter">
+                <div class="skill-meter-track">
+                    <span style="--skill-level: 65%"></span>
+                </div>
+                <small>Learning progress across HTML5, C++, Java, GitHub, and AutoCAD</small>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section section-alt" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I AM WORKING ON</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p>Academic projects that are still being developed.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-image project-image-dark">
+                        <img
+                            src="Picture hydro and me/hydroreap-logo.jfif.jfif"
+                            alt="HydroReap project logo"
+                            class="project-logo"
+                        >
+                    
+                    </div>
+
+                    <div class="project-content">
+                        <span class="project-status">
+                            <span class="status-dot"></span>
+                            In Progress
+                        </span>
+
+                        <h3>HydroReap</h3>
+
+                        <p>
+                            An academic engineering project focused on
+                            automated fish harvesting to explore ways of
+                            improving fishpond harvesting processes.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Automation</span>
+                            <span>Engineering</span>
+                            <span>Academic Project</span>
+                        </div>
+
+                        <p class="project-note">
+                            Project under development. Features and results
+                            will be updated as work progresses.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image parking-placeholder">
+                        <div class="placeholder-content">
+                            <span class="placeholder-icon">P</span>
+                            <span>Parking Management</span>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <span class="project-status">
+                            <span class="status-dot"></span>
+                            In Progress
+                        </span>
+
+                        <h3>Parking Slot Reservation and Management System</h3>
+
+                        <p>
+                            An academic project proposing a system for
+                            viewing parking availability and managing
+                            parking slot reservations.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>System Development</span>
+                            <span>Reservation</span>
+                        </div>
+
+                        <div class="project-actions">
+                            <a
+                                class="btn btn-outline"
+                                href="https://github.com/christianvelasco00"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >View GitHub Profile</a>
+                            <span class="demo-pending">Live demo coming soon</span>
+                        </div>
+
+                        <p class="project-note">
+                            Proposed system under development. Implementation
+                            details will be added when available.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- AUTOCAD GALLERY -->
+        <section class="section" id="autocad">
+            <div class="section-heading">
+                <p class="eyebrow">ENGINEERING DESIGN</p>
+                <h2>AutoCAD <span>3D Gallery</span></h2>
+                <p>A space for my technical drawings and 3D modeling work.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <article class="gallery-card">
+                    <div class="gallery-placeholder">
+                        <span>3D MODEL</span>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>3D Model 01</h3>
+                        <p>In work progress</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-placeholder">
+                        <span>TECHNICAL DRAWING</span>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Technical Drawing 01</h3>
+                        <p>In work progress.</p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-placeholder">
+                        <span>ENGINEERING DESIGN</span>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Engineering Design 01</h3>
+                        <p>More project images can be added in the future.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- PERSONAL INTERESTS -->
+        <section class="section section-alt" id="interests">
+            <div class="section-heading">
+                <p class="eyebrow">LIFE OUTSIDE THE LAB</p>
+                <h2>Beyond the <span>Code</span></h2>
+                <p>Beyond programming and technology, I enjoy motorcycle rides, online gaming, and listening to music. These hobbies help me relax, explore my interests, and balance my studies with personal time.</p>
+            </div>
+
+            <div class="interests-grid">
+                <article class="interest-card motorcycle-card">
+                    <div class="interest-card-top"><span class="interest-index">01 / RIDE</span><span class="interest-mark" aria-hidden="true">↗</span></div>
+                    <h3>Motorcycle Life</h3>
+                    <p>Every ride is a chance to enjoy the road and clear my mind. Here’s a riding photo I shared.</p>
+                    <label class="field-label" for="motorcycle-model">Motorcycle name / model</label>
+                    <input id="motorcycle-model" class="interest-input" type="text" placeholder="Add your motorcycle model" aria-label="Motorcycle name or model">
+                    <div class="motorcycle-gallery" id="motorcycle-gallery">
+                        <figure class="motorcycle-photo">
+                            <img src="images/motorcycle/riding-photo.jfif" alt="Motorcycle rider on a curving road" loading="lazy">
+                            <figcaption>Road ride</figcaption>
+                        </figure>
+                    </div>
+                    <div class="upload-controls">
+                        <label class="upload-button" for="motorcycle-photo-input">Choose a motorcycle photo</label>
+                        <input id="motorcycle-photo-input" class="visually-hidden" type="file" accept="image/*">
+                        <div id="motorcycle-preview" class="upload-preview" hidden></div>
+                        <p class="upload-note">Preview additions are temporary. For a permanent photo, add it to <code>images/motorcycle/</code> and reference it in this gallery.</p>
+                    </div>
+                </article>
+
+                <article class="interest-card gaming-card">
+                    <div class="interest-card-top"><span class="interest-index">02 / PLAY</span><span class="interest-mark" aria-hidden="true">⌁</span></div>
+                    <h3>Gaming Zone</h3>
+                    <p>Online games are a fun way to unwind and enjoy a little friendly competition.</p>
+                    <div class="game-feature" aria-label="Favorite online game: Call of Duty Mobile">
+                        <span class="game-crosshair" aria-hidden="true">＋</span>
+                        <span class="game-label">FAVORITE ONLINE GAME</span>
+                        <strong>Call of Duty<br>Mobile</strong>
+                        <span class="game-platform">MOBILE · MULTIPLAYER</span>
+                    </div>
+                    <p class="upload-note">Want to add another game? Edit this card in <code>index.html</code> and include its title and an image from your project.</p>
+                </article>
+
+                <article class="interest-card music-card">
+                    <div class="interest-card-top"><span class="interest-index">03 / LISTEN</span><span class="interest-mark" aria-hidden="true">♫</span></div>
+                    <h3>Music Corner</h3>
+                    <p>Music is part of my downtime. My favorite artist is <strong>Up Dharma Down</strong>.</p>
+                    <div class="music-art" aria-hidden="true"><span>UDD</span><i>♫</i></div>
+                    <label class="field-label" for="music-file-input">Play an audio file you have permission to use</label>
+                    <input id="music-file-input" class="interest-input audio-file-input" type="file" accept="audio/*">
+                    <p id="music-file-status" class="audio-status" aria-live="polite">No song selected yet. Choose a local audio file to preview it here.</p>
+                    <audio id="music-player" controls preload="none" hidden aria-label="Selected local audio preview"></audio>
+                    <p class="upload-note">To publish a song, add your permitted audio file to <code>audio/</code> and set its path in this card. Local previews do not upload to GitHub Pages.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section-alt" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+                <p>Interested in my work? You can add your contact links below.</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-symbol">@</div>
+                <h3>Let's Work Together</h3>
+                <p>
+                    I welcome opportunities to learn, collaborate, and
+                    discuss technology and engineering projects.
+                </p>
+
+                <!-- Replace these placeholders with your actual details. -->
+                <a class="contact-link" href="mailto:Christianvelasco1006@gmail.com">
+                    Christianvelasco1006@gmail.com
+                </a>
+
+                <a
+                    class="contact-link"
+                    href="https://github.com/christianvelasco00/christianvelasco.github.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub: christianvelasco00
+                </a>
+
+                <a class="contact-link" href="tel:+639100569409">
+                    09100569409
+                </a>
+
+                <p class="contact-note">
+                   Thankyou for visiting my portfolio! I am open to collaborations, discussions, and learning opportunities. Feel free to reach out through the provided contact links. 
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#home" class="logo">CMV<span>.</span></a>
+        <p>© <span id="year">2026</span> Christian Mark Velasco</p>
+        <p>BS Computer Engineering • Portfolio</p>
+    </footer>
+
+    <button
+      id="theme-toggle"
+      class="theme-toggle floating-theme-toggle"
+      type="button"
+      aria-label="Switch to light mode"
+      aria-pressed="false"
+    >
+      Light Mode
+    </button>
+
+</body>
+</html>
+sssssss
